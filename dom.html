@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to DOM</title>
+</head>
+<style>body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #ee9f27;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a1b300;
+}
+
+input {
+    padding: 8px;
+    width: 250px;
+}</style>
+<body>
+    
+    <p class="paragraph">this is a simple paragraph demonstrating dom</p>
+    <div class="container"></div>
+        <h1 id="heading">Dom Heading</h1>
+        <input type="text" id="userinput" placeholder="Enter the userdata" > <br>
+        <button id="changetextbtn">Change Heading</button>
+        <button id="bgcolorbtn">Change Background color</button>
+        <button id="fontbtn">Change size</button>
+        <script src="dom.js"></script>
+</body>
+</html>
